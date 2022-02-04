@@ -11,7 +11,7 @@ import java.util.Scanner;
  * in the debug menu when debugging the code. When run normally, the
  * code doesn't work as intended.
  * Due Date: February 4, 2022
- *
+ * Student ID: 991401318
  * @author Mitch Pepito
  */
 public class CardTrick {
@@ -71,7 +71,7 @@ public class CardTrick {
     }
 
     public static void printInfo() {
-        System.out.println("");
+        System.out.println("Hello! My name is Mitch Pepito. This is my first work with a GitHub repository");
     }
 
 }
