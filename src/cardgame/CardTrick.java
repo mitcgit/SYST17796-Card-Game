@@ -71,6 +71,7 @@ public class CardTrick {
     }
 
     public static void printInfo() {
+        //I'm done!
         System.out.println("Hello! My name is Mitch Pepito. This is my first work with a GitHub repository");
     }
 
