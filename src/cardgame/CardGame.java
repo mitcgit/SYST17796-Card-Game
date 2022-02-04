@@ -4,20 +4,19 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * This class models a simple card guessing game
+ *
  * 
- * @author Paul Bonenfant
+ *
+ * @author  Paul Bonenfant
  */
 public class CardGame {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-           Scanner input = new Scanner(System.in);
+
+        Scanner input = new Scanner(System.in);
 
         // Create an array to hold 7 cards
-//        Card[] hand = new Card[7];
+        Card[] hand = new Card[7];
 
         // We'll use Random to generate random numbers
         Random random = new Random();
@@ -29,7 +28,6 @@ public class CardGame {
 //            Card card = new Card(value, suit);
 //            hand[i] = card;
 //        }
-
         // print them out for debugging purposes
         System.out.println("Here are the cards in the hand");
 //        for (Card card : hand) {
@@ -47,7 +45,6 @@ public class CardGame {
         int value = input.nextInt();
 
 //        Card userGuess = new Card(value, Card.SUITS[suit - 1]);
-
         boolean match = false;
 //        for (Card card : hand) {
 //            if (card.getValue() == userGuess.getValue()
@@ -56,10 +53,11 @@ public class CardGame {
 //                break;
 //            }
 //        }
-    
-        String response = match ? "Right guess": "No match";
-        
+
+        String response = match ? "Right guess" : "No match";
+
         System.out.println(response);
     }
-    
+
+ 
 }
