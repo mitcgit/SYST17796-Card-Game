@@ -4,8 +4,8 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- *
- * 
+ * Unused. This is the original code. That
+ * is here for reference.
  *
  * @author  Paul Bonenfant
  */
